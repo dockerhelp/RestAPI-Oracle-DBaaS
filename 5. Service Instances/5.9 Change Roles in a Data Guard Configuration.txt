@@ -1,0 +1,1 @@
+curl --include --request POST --user clouduser@gmail.com:PA$$WORD --header "X-ID-TENANT-NAME:idcs-833fe2f8c2024ddaa3cf24c7c85981f8" --header "Content-Type:application/json" --data '{ "action" : "Switchover" }' "https://dbcs.emea.oraclecloud.com/paas/service/dbcs/api/v1.1/instances/idcs-833fe2f8c2024ddaa3cf24c7c85981f8/dev12c/standby"
