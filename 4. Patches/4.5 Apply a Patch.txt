@@ -1,0 +1,1 @@
+curl --include --request PUT --user clouduser@gmail.com:PA$$WORD --header "X-ID-TENANT-NAME:idcs-9ce06e017f994a3ba91bf5e4141e7ea8" https://psm-dbwrapi.console.oraclecloud.com/paas/api/v1.1/instancemgmt/idcs-9ce06e017f994a3ba91bf5e4141e7ea8/services/dbaas/instances/orcl18c/patches/28090523-EE
